@@ -6,7 +6,7 @@
 # catalog-version 2.14
 Name:		texlive-songs
 Version:	2.14
-Release:	4
+Release:	5
 Summary:	Produce song books for church or fellowship
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/songs
