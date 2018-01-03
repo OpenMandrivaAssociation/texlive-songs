@@ -1,12 +1,6 @@
-# revision 30005
-# category Package
-# catalog-ctan /macros/latex/contrib/songs
-# catalog-date 2012-04-22 21:38:25 +0200
-# catalog-license gpl
-# catalog-version 2.14
 Name:		texlive-songs
-Version:	2.14
-Release:	9
+Version:	3.0
+Release:	1
 Summary:	Produce song books for church or fellowship
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/songs
@@ -39,37 +33,10 @@ interactive use. A set of example documents is provided.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/songs/songs.sty
-%doc %{_texmfdistdir}/doc/latex/songs/Makefile
-%doc %{_texmfdistdir}/doc/latex/songs/README
-%doc %{_texmfdistdir}/doc/latex/songs/history.txt
-%doc %{_texmfdistdir}/doc/latex/songs/license.txt
-%doc %{_texmfdistdir}/doc/latex/songs/sample/Makefile
-%doc %{_texmfdistdir}/doc/latex/songs/sample/chordbook.tex
-%doc %{_texmfdistdir}/doc/latex/songs/sample/lyricbook.tex
-%doc %{_texmfdistdir}/doc/latex/songs/sample/slidebook.tex
-%doc %{_texmfdistdir}/doc/latex/songs/sample/songs.sbd
-%doc %{_texmfdistdir}/doc/latex/songs/sample/transparencies.tex
-%doc %{_texmfdistdir}/doc/latex/songs/songidx/Makefile
-%doc %{_texmfdistdir}/doc/latex/songs/songidx/authidx.c
-%doc %{_texmfdistdir}/doc/latex/songs/songidx/bible.can
-%doc %{_texmfdistdir}/doc/latex/songs/songidx/catholic.can
-%doc %{_texmfdistdir}/doc/latex/songs/songidx/chars.h
-%doc %{_texmfdistdir}/doc/latex/songs/songidx/fileio.c
-%doc %{_texmfdistdir}/doc/latex/songs/songidx/fileio.h
-%doc %{_texmfdistdir}/doc/latex/songs/songidx/greek.can
-%doc %{_texmfdistdir}/doc/latex/songs/songidx/protestant.can
-%doc %{_texmfdistdir}/doc/latex/songs/songidx/scripidx.c
-%doc %{_texmfdistdir}/doc/latex/songs/songidx/songidx.c
-%doc %{_texmfdistdir}/doc/latex/songs/songidx/songidx.h
-%doc %{_texmfdistdir}/doc/latex/songs/songidx/songsort.c
-%doc %{_texmfdistdir}/doc/latex/songs/songidx/tanakh.can
-%doc %{_texmfdistdir}/doc/latex/songs/songidx/titleidx.c
-%doc %{_texmfdistdir}/doc/latex/songs/songidx/vsconfig.h
-%doc %{_texmfdistdir}/doc/latex/songs/songs.pdf
+%{_texmfdistdir}/tex/latex/songs
+%doc %{_texmfdistdir}/doc/latex/songs
 #- source
-%doc %{_texmfdistdir}/source/latex/songs/songs.dtx
-%doc %{_texmfdistdir}/source/latex/songs/songs.ins
+%doc %{_texmfdistdir}/source/latex/songs
 
 #-----------------------------------------------------------------------
 %prep
