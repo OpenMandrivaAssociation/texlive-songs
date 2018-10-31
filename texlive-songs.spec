@@ -1,6 +1,6 @@
 Name:		texlive-songs
 Version:	3.0
-Release:	1
+Release:	2
 Summary:	Produce song books for church or fellowship
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/songs
