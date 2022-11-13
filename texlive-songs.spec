@@ -1,13 +1,13 @@
 Name:		texlive-songs
-Version:	3.0
-Release:	2
+Version:	51494
+Release:	1
 Summary:	Produce song books for church or fellowship
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/songs
 License:	GPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/songs.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/songs.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/songs.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/songs.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/songs.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/songs.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -24,12 +24,12 @@ references); and - projector-style output generation, for
 interactive use. A set of example documents is provided.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -40,7 +40,8 @@ interactive use. A set of example documents is provided.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
