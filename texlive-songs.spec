@@ -3,7 +3,7 @@ Version:	51494
 Release:	2
 Summary:	Produce song books for church or fellowship
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/songs
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/songs
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/songs.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/songs.doc.r%{version}.tar.xz
